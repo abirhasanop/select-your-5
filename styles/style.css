@@ -1,0 +1,16 @@
+.top-header {
+    height: 30rem;
+}
+
+.top-header-heading {
+    font-size: 5rem;
+}
+
+.top-header-pera {
+    font-size: 1.5rem;
+}
+
+.top-payers {
+    margin-left: 30px;
+    width: 350px;
+}
