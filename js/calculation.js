@@ -1,15 +1,27 @@
 function getValueFromInput(inputId) {
   const inputElement = document.getElementById(inputId);
   const inputValue = parseFloat(inputElement.value);
+  console.log(inputValue);
+  if (isNaN(inputValue)) {
+    alert("Please Provide a valid number");
+    return 0;
+  } else {
+    return inputValue;
+  }
 
-  return inputValue;
+  // return inputValue;
 }
 
 function getValueFromElement(elementId) {
   const element = document.getElementById(elementId);
   const elementValue = parseFloat(element.innerText);
 
-  return elementValue;
+  if (isNaN(elementValue)) {
+    // alert("Please provide a valid number");
+    return 0;
+  } else {
+    return elementValue;
+  }
 }
 
 function setValue(elementId, value) {
