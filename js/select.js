@@ -9,7 +9,7 @@ function setPlayers(elementId, btnId) {
     ol.appendChild(li);
     selectBtn.setAttribute("disabled", "");
   } else {
-    alert("You have added the maximum number of players");
+    alert("You Have Added The Maximum Number Of Players");
   }
 }
 
